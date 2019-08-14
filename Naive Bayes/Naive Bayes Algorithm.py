@@ -40,3 +40,4 @@ predicted_value=(model.predict(feature_test))
 for item in zip(target_test,predicted_value):
     print("Actual was : ",item[0],"predicted was : ",item[1])
 print(model.score(feature_test,target_test))
+
